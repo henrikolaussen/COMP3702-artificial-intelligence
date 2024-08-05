@@ -1,0 +1,34 @@
+# n_rows, n_cols
+5, 6
+# gamma, epsilon
+0.999, 0.0001
+# VI time targets (min score target, max score target)
+0.0004, 0.0002
+# PI time targets (min score target, max score target)
+0.0004, 0.0002
+# VI iterations targets (min score target, max score target)
+24, 12
+# PI iterations targets (min score target, max score target)
+12, 6
+# reward target
+-25.8, -12.9
+# glide probabilities
+0.2, 0.6, 0.2
+# super jump probabilities
+0.2, 0.3, 0.3, 0.2
+# super charge probabilities
+0.1, 0.2, 0.3, 0.4
+# ladder fall probability
+0.1
+# collision penalty
+1.0
+# game over penalty
+500.0
+# episode seed
+1917
+# grid data
+XXXXXX
+X P EX
+X=XXXX
+X= GXX
+XXXXXX
